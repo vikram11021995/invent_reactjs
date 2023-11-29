@@ -30,7 +30,7 @@ const Planet = () => {
         setSearchMessage('');
       }
     } catch (error) {
-      console.error('Error fetching search results:', error);
+      console.error('Error:', error);
     }
   };
 
@@ -79,24 +79,6 @@ const Planet = () => {
         )}
         {searchResults.length === 0 && searchMessage && <p className='no-data'>{searchMessage}</p>}
       </div>
-
-      {/* {planetData && (
-        <div className='planetdetails'>
-          <h2>Planet Details</h2>
-          <div className="planet-info">
-            <div className="nameP">
-              <div className="name">Name</div>
-              <div className="population">Population</div>
-            </div>
-            <div className="populationData">
-              <div>{planetData.name}</div>
-              <div title={`Population: ${planetData.population}`} className="population">
-                👽
-              </div>
-            </div>
-          </div>
-        </div>
-      )} */}
     </div>
   );
 };
