@@ -36,3 +36,102 @@
     transform: rotate(360deg);
   }
 }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.login-btn{
+  background: blue;
+    color: #fff;
+    padding: 5px 22px;
+}
+
+.searchplanet{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planetdetails{
+  border: 1px solid blue;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planet-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.population {
+  cursor: help;
+}
+.planetSearch{
+  text-align: center;
+}
+.nameP{
+  display: flex;
+    justify-content: center;
+}
+.populationData{
+  display: flex;
+    justify-content: center;
+}
+
+
+h3{
+  text-align: center;
+}
+.heading_table{
+  background: #7878b2;
+    text-align: left;
+}
+.title_table{
+  width: 80%;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.no-data{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.planet-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameP {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.name,
+.population {
+  flex: 1;
+  text-align: center;
+}
+
+.population {
+  cursor: help;
+}
